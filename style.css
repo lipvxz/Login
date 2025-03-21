@@ -111,8 +111,8 @@ body * {
 
 @media only screen and (max-width: 950px) {
     .card-login {
-        width: 85%; /* Aumenta a largura no tablet */
-        padding: 30px;
+        width: 100%; /* Aumenta a largura no tablet */
+        padding: 50px;
     }
 }
 
