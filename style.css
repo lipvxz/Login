@@ -111,14 +111,15 @@ body * {
 
 @media only screen and (max-width: 950px) {
     .card-login {
-        width: 80%;
+        width: 85%; /* Aumenta a largura no tablet */
+        padding: 30px;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .main-login {
         flex-direction: column;
-        align-items: center; /* Garante que o login fique centralizado */
+        align-items: center;
     }
 
     .left-login > h1 {
@@ -134,7 +135,7 @@ body * {
     }
 
     .left-login-image {
-        width: 40vw; /* Reduzi um pouco a largura para não ocupar muito espaço */
+        width: 35vw; /* Mantém a imagem menor para não ocupar muito espaço */
     }
 
     .right-login {
@@ -145,8 +146,18 @@ body * {
     }
 
     .card-login {
-        width: 90%; /* Aumenta no mobile para ocupar mais espaço */
-        padding: 25px; /* Evita que fique pequeno demais */
+        width: 95%; /* Aumenta no mobile para ocupar quase toda a tela */
+        padding: 35px; /* Mais espaço interno para os campos */
+    }
+
+    .textfield input {
+        font-size: 16px; /* Aumenta o tamanho do texto dentro dos inputs */
+        padding: 15px; /* Deixa os campos maiores */
+    }
+
+    .btn-login {
+        font-size: 18px; /* Aumenta o tamanho do botão */
+        padding: 15px 0; /* Deixa o botão mais alto */
     }
 }
 
